@@ -1,0 +1,3233 @@
+<script>
+    localStorage.removeItem('user_email');
+</script>
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="title">Football Predictions - Free Football Prediction Site | Sportverified</title>
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="keywords" content="Accurate Football Predictions, Calculated sports betting tips,soccer predictions, soccer prediction,football prediction,soccer tips,soccer odds, other sports, basketball,ice-hockey, hockey,tennis, boxing, predictions,tips,odds,football,soccer,football predictions,Find betting tips, statistics, winning football tips and much more to help you win big.">
+    <meta name="author" content="Sportverified">
+    <meta name="description" content="Free football prediction site, soccer predictions,  winning football tips and much more to help you win big.">
+    <link rel="icon" type="image/ico" href="files/images/logo.png" />
+    <link rel="stylesheet" href="files/animate.css">
+    <link rel="stylesheet" href="files/owl.carousel.min.css">
+    <link rel="stylesheet" href="files/magnific-popup.css">
+    <link rel="stylesheet" href="files/style.css">
+    <link rel="stylesheet" href="files/custom.css">
+    <link rel="stylesheet" href="files/responsive.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <script type="text/javascript" src="files/jquery-3.4.1.min.js.download"></script>
+    <script async="" src="files/hotjar-258255.js.download"></script>
+    <style>
+        .quick-overlay {
+            position: fixed;
+            z-index: 30000;
+            height: 100%;
+            width: 100%;
+            display: none;
+            top: 0;
+            background-color: #00000050;
+        }
+
+        .quick-pop {
+            margin: 60px 37.5%;
+            width: 25%;
+            height: auto;
+            background-color: #fff;
+            box-shadow: 0px 0px 30px 0px rgba(82, 63, 105, 0.15);
+            border-radius: 10px;
+        }
+
+        .quick-pop-inner {
+            padding: 0px;
+        }
+
+        @media (max-width: 480px) {
+            .quick-pop {
+                margin: 60px 15%;
+                width: 80% !important;
+            }
+        }
+
+        .quick-toggle {
+            position: fixed;
+            z-index: 50000;
+            right: -36px;
+            top: 30%;
+            padding: 8px 10px;
+            transform: rotate(270deg);
+            color: #fff;
+            background-color: rgb(30, 66, 223);
+            margin: 0px;
+            font-size: 13px;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+    </style>
+    <style>
+        .header .header-bottom .navbar .navbar-nav .nav-item.dropdown .dropdown-menu .dropdown-item:after {
+            background: rgb(25, 63, 230) !important;
+        }
+
+        .sidebar-on-media {
+            display: none;
+        }
+
+        @media (max-width:480px) {
+            .sidebar-on-media {
+                display: block;
+            }
+        }
+
+        @media (max-width:480px) {
+            .media-p {
+                padding: 15px !important;
+                margin-top: 10px;
+            }
+            .media-no-p {
+                margin: 0px !important;
+            }
+        }
+
+        @media (min-width:990px) {
+            .mobile-slide {
+                display: none !important;
+            }
+        }
+
+        @media (max-width:480px) {
+            .desktop-slide {
+                display: none !important;
+            }
+            .mobile-slide {
+                display: block !important;
+                margin-bottom: 20px !important;
+            }
+        }
+
+        /*#ffcc56*/
+
+        #pills-tip-genius-tab.active {
+            background-color: #002 !important;
+            position: relative;
+        }
+
+        #pills-tip-genius-tab.active:after {
+            position: absolute;
+            content: '';
+            left: 50%;
+            bottom: -6px;
+            width: 20px;
+            height: 20px;
+            background-color: #002 !important;
+            -webkit-transform: translateX(-50%) rotate(45deg);
+            -ms-transform: translateX(-50%) rotate(45deg);
+            transform: translateX(-50%) rotate(45deg);
+            z-index: -1;
+        }
+
+        #pills-pro-tips-tab.active {
+            background-color: #002 !important;
+            position: relative;
+        }
+
+        #pills-pro-tips-tab.active:after {
+            position: absolute;
+            content: '';
+            left: 50%;
+            bottom: -6px;
+            width: 20px;
+            height: 20px;
+            background-color: #002 !important;
+            -webkit-transform: translateX(-50%) rotate(45deg);
+            -ms-transform: translateX(-50%) rotate(45deg);
+            transform: translateX(-50%) rotate(45deg);
+            z-index: -1;
+        }
+
+        .expert-pick-top {
+            position: relative;
+            border-left: 1px solid #1282df;
+        }
+
+        .expert-pick-top .owl-nav {
+            position: absolute;
+            right: -35px;
+            top: 2px;
+        }
+
+        .expert-pick-top .owl-nav .owl-next,
+        .expert-pick-top .owl-nav .owl-prev {
+            margin-top: 5px;
+            padding: 5px 2px;
+            font-size: 20px;
+        }
+
+        .expert-pick-top .owl-nav .owl-next:hover,
+        .expert-pick-top .owl-nav .owl-prev:hover {
+            color: rgb(34, 105, 212);
+        }
+
+        .games-card {
+            /*width: 220px;*/
+            border: none;
+            border-right: 1px solid #e4e0e9;
+            transition: .3s;
+        }
+
+        .games-card:hover {
+            transition: .3s;
+            background-color: #e0e4e9;
+        }
+
+        .games-card .rec {
+            transition: 0.3s;
+        }
+
+        .games-card .odds {
+            display: none;
+            color: #fff;
+            font-weight: bold;
+            transition: 0.3s;
+            color: rgba(17, 89, 223, 0.87);
+        }
+
+        .games-card .tsm {
+            font-size: 13px;
+            font-weight: 300
+        }
+
+        .result-class ul li span {
+            color: #000;
+        }
+
+        .result-class ul li i {
+            font-size: 25px;
+        }
+
+        .panel-title a {
+            color: rgba(26, 73, 226, 0.795);
+            padding: 7px 8px;
+            border: 1px solid #000000;
+            border-bottom-color: rgba(170, 154, 154, 0.788);
+            font-weight: 400;
+            background-color: #000000;
+            display: block;
+        }
+
+        .panel-title.collapsed a {
+            color: #fff;
+        }
+
+        .panel-title a:before {
+            float: right !important;
+            font-family: "font awesome 5 free";
+            content: "\f068";
+            padding-right: 5px;
+            color: #fff;
+            font-weight: 200;
+        }
+
+        .panel-title.collapsed a:before {
+            float: right !important;
+            content: "\f067";
+            font-weight: 200;
+        }
+
+        .sub-list li {
+            padding: 7px 8px;
+            border: 1px solid #dcdcdc;
+            background-color: #f8f8f8;
+            font-size: 13px;
+            border-bottom: none;
+        }
+
+        .sub-list li.d-item {
+            padding: 7px 8px;
+            border: 1px solid #dcdcdc;
+            background-color: #f8f8f8;
+            font-size: 13px;
+            border-bottom: none;
+        }
+
+        .sub-list li.sbi.active {
+            background-color: rgb(34, 86, 230);
+            color: #fff;
+        }
+
+        .data-item {
+            border-bottom: 1px solid #dcdcdc;
+        }
+
+        /*.tab-title {display:inline-block;}*/
+
+        .tab-title a.football_nav,
+        .tab-title a.other_nav {
+            color: #fff;
+            padding: 9px 10px;
+            font-weight: 400;
+            text-align: center;
+            background-color: #000;
+        }
+
+        .tab-title a.football_nav.active {
+            background-color: rgb(25, 108, 216);
+        }
+
+        .tab-title a.other_nav.active {
+            background-color: rgb(23, 183, 223);
+        }
+
+        .tab-title a.main:hover {
+            color: rgb(28, 137, 209);
+        }
+
+        .sub-list {
+            display: block;
+        }
+
+        .sub-list li a {
+            padding: 7px 8px;
+            border: 1px solid #dcdcdc;
+            background-color: #f8f8f8;
+            display: block;
+            font-size: 13px;
+            border-bottom: none;
+        }
+
+        .sub-list li a.active {
+            background-color: rgb(15, 86, 218);
+            border-color: red;
+            color: #fff;
+        }
+
+        .sub-list li a.other.active {
+            background-color: #060;
+            border-color: #060;
+            color: #fff;
+        }
+
+        .expert-picks-table tbody td {
+            font-size: 12px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+
+        .free-game .rec {
+            padding: 6px 0px;
+            transition: 0.3s;
+        }
+
+        .free-game .odds {
+            display: none;
+            color: #fff;
+            font-weight: bold;
+            padding: 6px 12px;
+            transition: 0.3s;
+            background-color: red;
+        }
+
+        .slideshow {
+            position: relative;
+        }
+
+        .slideshow .owl-nav {
+            position: absolute;
+            top: 50%;
+            width: 100%;
+        }
+
+        .slideshow .owl-nav .owl-next {
+            position: absolute;
+            color: #fff;
+            right: 10px;
+            padding: 5px 7px;
+            font-size: 20px;
+        }
+
+        .slideshow .owl-nav .owl-prev {
+            position: absolute;
+            color: #fff;
+            left: 10px;
+            padding: 5px 7px;
+            font-size: 20px;
+        }
+
+        .slideshow .owl-nav .owl-next,
+        .slideshow .owl-nav .owl-prev {
+            color: red;
+            background: #00000035;
+        }
+
+        .blink {
+            /*font-size: 15px;*/
+            /*font-family: cursive;*/
+            animation: blink 1s linear infinite;
+        }
+
+        @keyframes blink {
+            0% {
+                opacity: 0;
+            }
+            50% {
+                opacity: .5;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
+        .rg-switch .nav-item .nav-link {
+            background-color: #f8f8f8;
+            color: #000;
+            margin-right: 10px;
+        }
+
+        .rg-switch .nav-item .nav-link.active {
+            background-color: red;
+            color: #fff;
+        }
+
+        .external-matches-table {
+            width: 100%;
+        }
+
+        .external-matches-table * {
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .external-matches-table td,
+        .external-matches-table th {
+            padding: 10px 5px;
+            font-size: 12px;
+        }
+
+        .external-matches-table td {
+            padding: 10px 5px;
+        }
+
+        .external-matches-table .odd-title-top-row th {
+            background: #b20 !important;
+            border-right: 1px solid #900;
+            color: #fff;
+        }
+
+        .external-matches-table .odd-content-row .time-content {
+            width: 40px;
+        }
+
+        .external-matches-table .odd-content-row .odd-content {
+            width: 60px;
+        }
+
+        .external-matches-table .odd-title-row .match-date,
+        .external-matches-table .odd-content-row .match-content {
+            text-align: left;
+        }
+
+        .external-matches-table .odd-content-row .odd-content span {
+            background: #3558BD;
+            border: 1px solid #3558BD;
+            color: #fff;
+            padding: 2px;
+            display: block;
+            cursor: pointer;
+        }
+
+        .external-matches-table .odd-content-row .odd-content span:hover {
+            background: #fff;
+            color: #3558BD;
+        }
+
+        .mobile {
+            display: none;
+        }
+
+        @media screen and (max-width:480px) {
+            .desktop {
+                display: none;
+            }
+            .mobile {
+                display: block;
+                text-align: center;
+            }
+        }
+
+        .upcoming-match .single-match .part-head:after {
+            position: absolute;
+            content: '';
+            left: 0;
+            top: 0;
+            width: 100%;
+            background: -webkit-linear-gradient(290deg, #000000, #000000);
+            background: -o-linear-gradient(290deg, #000000, #000000);
+            background: linear-gradient(160deg, #000000, #000000);
+            height: 100%;
+            z-index: -1;
+            opacity: .78;
+        }
+
+        .blink {
+            visibility: visible
+        }
+
+        @media (max-width:480px) {
+            .header-middle,
+            .od {
+                display: none !important;
+            }
+        }
+
+        .sport-toggler {
+            background: none;
+            border: none;
+            padding: 5px 6px;
+            color: #fff;
+            font-size: 23px;
+            outline: none;
+        }
+
+        .btn-danger,
+        .vew-more-news {
+            background: red;
+        }
+    </style>
+    <style>
+        .bns {
+            padding: 7px 8px;
+            color: #fff;
+            background-color: red;
+            display: inline-block;
+        }
+
+        .bns.Free {
+            background-color: #666;
+            color: #fff !important;
+        }
+
+        .bns.Professional {
+            background-color: #d47506;
+        }
+
+        .bns.Basic,
+        .bns.Standard {
+            background-color: #06f;
+        }
+
+        .bns.Premium,
+        .bns.Business {
+            background-color: #b20;
+        }
+
+        .bns.active,
+        .bns:hover {
+            background-color: #000000;
+            color: red;
+        }
+
+        .bns.Free.active,
+        .bns.Free:hover {
+            color: #fff !important;
+        }
+
+        .bns .ppn {
+            color: #fff;
+            font-weight: bold;
+            font-size: 9px;
+        }
+
+        .bns:hover .ppn {
+            color: #fff !important;
+        }
+
+        .bns.active .ppn {
+            color: #fff !important;
+        }
+
+        .bns.unavail {
+            background-color: #fc0;
+            color: #b20;
+        }
+
+        .bns.unavail .main {
+            display: none;
+        }
+
+        .bns.unavail:hover {
+            background-color: #000;
+            color: red;
+        }
+
+        .bns.unavail:hover .main {
+            display: block;
+        }
+
+        .bns.unavail:hover .note {
+            display: none;
+        }
+
+        .modal-section {
+            top: 0;
+            position: fixed;
+            z-index: 60000;
+            width: 100%;
+            height: 100%;
+            background-color: #00000090;
+            display: none;
+            left: 0;
+        }
+
+        .modal-b {
+            width: 459px;
+            margin: 130px auto;
+            background: red;
+            padding: 5px;
+            position: relative;
+            overflow: visible;
+        }
+
+        .center-modal-picture {
+            margin: 90px auto;
+            width: 400px !important;
+        }
+
+        @media screen and (max-width:480px) {
+            .modal-b {
+                width: 80% !important;
+                margin: 160px auto !important;
+            }
+        }
+
+        .modal-inner {
+            display: block;
+            width: auto;
+            height: auto;
+            text-align: center;
+            background-color: #323150;
+            padding: 30px 20px;
+            color: #fff;
+        }
+
+        .modal-inner h4 {
+            font-family: "candara";
+            font-size: 30px;
+            margin: 0px;
+            color: #fff;
+        }
+
+        .modal-inner p {
+            margin: 10px !important;
+            font-size: 19px;
+            font-family: "candara";
+            color: #fff !important;
+        }
+
+        .modal-b-close,
+        .modal-b-close-2 {
+            position: absolute;
+            font-size: 17px;
+            padding: 3px 8px;
+            border-radius: 25px;
+            background-color: #fc0;
+            color: #fff;
+            font-weight: bold;
+            right: -10px;
+            top: -10px;
+            cursor: pointer;
+            font-family: "verdana";
+        }
+
+        .subscribe {
+            font-size: 16px;
+            color: #fff;
+            background-color: rgb(167, 125, 125);
+            font-family: "candara";
+            padding: 10px 12px;
+            border-radius: 28px;
+            font-weight: bold;
+            margin-top: 30px;
+            text-decoration: none;
+        }
+
+        @media screen and (max-width:480px) {
+            .modal-inner {
+                padding: 15px 10px;
+            }
+            .subscribe {
+                margin-top: 10px !important;
+                display: inline-block !important;
+            }
+        }
+    </style>
+    <style>
+        #calendar {
+            -webkit-transform: translate3d(0, 0, 0);
+            -moz-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+            width: 100%;
+            margin: 0 auto;
+            height: auto;
+            overflow: hidden;
+        }
+
+        #calendar .header {
+            height: 30px;
+            width: 100%;
+            background: #e5e5e5;
+            text-align: center;
+            position: relative;
+            z-index: 100;
+        }
+
+        #calendar .header h1 {
+            margin: 0;
+            padding: 0;
+            font-size: 15px;
+            line-height: 30px;
+            font-weight: bold;
+            letter-spacing: 1px;
+            color: #000;
+        }
+
+        #calendar .left,
+        #calendar .right {
+            position: absolute;
+            width: 0px;
+            height: 0px;
+            border-style: solid;
+            top: 50%;
+            margin-top: -7.5px;
+            cursor: pointer;
+        }
+
+        #calendar .left {
+            border-width: 7.5px 10px 7.5px 0;
+            border-color: transparent rgba(160, 159, 160, 1) transparent transparent;
+            left: 20px;
+        }
+
+        #calendar .right {
+            border-width: 7.5px 0 7.5px 10px;
+            border-color: transparent transparent transparent rgba(160, 159, 160, 1);
+            right: 20px;
+            /*display: none !important;*/
+        }
+
+        #calendar .month {
+            /*overflow: hidden;*/
+            opacity: 0;
+        }
+
+        #calendar .month.new {
+            -webkit-animation: fadeIn 1s ease-out;
+            opacity: 1;
+        }
+
+        #calendar .month.in.next {
+            -webkit-animation: moveFromTopFadeMonth .4s ease-out;
+            -moz-animation: moveFromTopFadeMonth .4s ease-out;
+            animation: moveFromTopFadeMonth .4s ease-out;
+            opacity: 1;
+        }
+
+        #calendar .month.out.next {
+            -webkit-animation: moveToTopFadeMonth .4s ease-in;
+            -moz-animation: moveToTopFadeMonth .4s ease-in;
+            animation: moveToTopFadeMonth .4s ease-in;
+            opacity: 1;
+        }
+
+        #calendar .month.in.prev {
+            -webkit-animation: moveFromBottomFadeMonth .4s ease-out;
+            -moz-animation: moveFromBottomFadeMonth .4s ease-out;
+            animation: moveFromBottomFadeMonth .4s ease-out;
+            opacity: 1;
+        }
+
+        #calendar .month.out.prev {
+            -webkit-animation: moveToBottomFadeMonth .4s ease-in;
+            -moz-animation: moveToBottomFadeMonth .4s ease-in;
+            animation: moveToBottomFadeMonth .4s ease-in;
+            opacity: 1;
+        }
+
+        #calendar .week {
+            background: #4A4A4A;
+        }
+
+        #calendar .day {
+            display: inline-block;
+            width: 14.2857%;
+            padding: 10px;
+            text-align: center;
+            vertical-align: top;
+            cursor: pointer;
+            background: #4A4A4A;
+            position: relative;
+            z-index: 100;
+            color: #fff;
+        }
+
+        #calendar .day:hover {
+            color: rgb(18, 98, 218);
+        }
+
+        #calendar .day.other {
+            color: rgba(255, 255, 255, .3);
+        }
+
+        #calendar .day.today {
+            color: #fff !important;
+            background-color: #000 !important;
+        }
+
+        #calendar .day.active {
+            color: #fff !important;
+            background-color: rgb(18, 132, 207) !important;
+        }
+
+        #calendar .day.disabled {
+            color: #666 !important;
+            opacity: .6;
+        }
+
+        #calendar .day-name {
+            font-size: 9px;
+            text-transform: uppercase;
+            margin-bottom: 5px;
+            color: rgba(255, 255, 255, .5);
+            letter-spacing: .7px;
+            display: none !important;
+        }
+
+        #calendar .day-number {
+            font-size: 13px;
+            letter-spacing: 1.5px;
+            /*color: #fff;*/
+        }
+
+        #calendar .day.other .day-name,
+        #calendar .day.other .day-number {
+            display: none;
+        }
+
+        #calendar .day .day-events {
+            list-style: none;
+            margin-top: 3px;
+            text-align: center;
+            height: 12px;
+            line-height: 6px;
+            overflow: hidden;
+            display: none;
+        }
+
+        #calendar .day .day-events span {
+            vertical-align: top;
+            display: inline-block;
+            padding: 0;
+            margin: 0;
+            width: 5px;
+            height: 5px;
+            line-height: 5px;
+            margin: 0 1px;
+        }
+
+        #calendar .blue {
+            background: rgba(156, 202, 235, 1);
+        }
+
+        #calendar .orange {
+            background: rgb(206, 17, 43);
+        }
+
+        #calendar .green {
+            background: rgba(153, 198, 109, 1);
+        }
+
+        #calendar .yellow {
+            background: rgb(9, 165, 61);
+        }
+
+        #calendar .details {
+            position: relative;
+            width: 100%;
+            height: 60px;
+            background: rgba(164, 164, 164, 1);
+            margin-top: 5px;
+            border-radius: 4px;
+            display: none;
+        }
+
+        #calendar #calendar .details.in {
+            -webkit-animation: moveFromTopFade .5s ease both;
+            -moz-animation: moveFromTopFade .5s ease both;
+            animation: moveFromTopFade .5s ease both;
+        }
+
+        #calendar .details.out {
+            -webkit-animation: moveToTopFade .5s ease both;
+            -moz-animation: moveToTopFade .5s ease both;
+            animation: moveToTopFade .5s ease both;
+        }
+
+        #calendar .arrow {
+            position: absolute;
+            top: -5px;
+            left: 50%;
+            margin-left: -2px;
+            width: 0px;
+            height: 0px;
+            border-style: solid;
+            border-width: 0 5px 5px 5px;
+            border-color: transparent transparent rgba(164, 164, 164, 1) transparent;
+            transition: all 0.7s ease;
+        }
+
+        #calendar .events {
+            height: 75px;
+            padding: 7px 0;
+            overflow-y: auto;
+            overflow-x: hidden;
+        }
+
+        #calendar .events.in {
+            -webkit-animation: fadeIn .3s ease both;
+            -moz-animation: fadeIn .3s ease both;
+            animation: fadeIn .3s ease both;
+        }
+
+        #calendar .events.in {
+            -webkit-animation-delay: .3s;
+            -moz-animation-delay: .3s;
+            animation-delay: .3s;
+        }
+
+        #calendar .details.out .events {
+            -webkit-animation: fadeOutShrink .4s ease both;
+            -moz-animation: fadeOutShink .4s ease both;
+            animation: fadeOutShink .4s ease both;
+        }
+
+        #calendar .events.out {
+            -webkit-animation: fadeOut .3s ease both;
+            -moz-animation: fadeOut .3s ease both;
+            animation: fadeOut .3s ease both;
+        }
+
+        #calendar .event {
+            font-size: 16px;
+            line-height: 22px;
+            letter-spacing: .5px;
+            padding: 2px 16px;
+            vertical-align: top;
+        }
+
+        #calendar .event.empty {
+            color: #eee;
+        }
+
+        #calendar .event-category {
+            height: 10px;
+            width: 10px;
+            display: inline-block;
+            margin: 6px 0 0;
+            vertical-align: top;
+        }
+
+        #calendar .event span {
+            display: inline-block;
+            padding: 0 0 0 7px;
+        }
+
+        #calendar .legend {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            height: 30px;
+            background: rgba(60, 60, 60, 1);
+            line-height: 30px;
+            display: none;
+        }
+
+        #calendar .entry {
+            position: relative;
+            padding: 0 0 0 25px;
+            font-size: 13px;
+            display: inline-block;
+            line-height: 30px;
+            background: transparent;
+        }
+
+        #calendar .entry:after {
+            position: absolute;
+            content: '';
+            height: 5px;
+            width: 5px;
+            top: 12px;
+            left: 14px;
+        }
+
+        #calendar .entry.blue:after {
+            background: rgba(156, 202, 235, 1);
+        }
+
+        #calendar .entry.orange:after {
+            background: rgba(247, 167, 0, 1);
+        }
+
+        #calendar .entry.green:after {
+            background: rgba(153, 198, 109, 1);
+        }
+
+        #calendar .entry.yellow:after {
+            background: rgba(249, 233, 0, 1);
+        }
+
+        /* Animations are cool!  */
+
+        @-webkit-keyframes moveFromTopFade {
+            from {
+                opacity: .3;
+                height: 0px;
+                margin-top: 0px;
+                -webkit-transform: translateY(-100%);
+            }
+        }
+
+        @-moz-keyframes moveFromTopFade {
+            from {
+                height: 0px;
+                margin-top: 0px;
+                -moz-transform: translateY(-100%);
+            }
+        }
+
+        @keyframes moveFromTopFade {
+            from {
+                height: 0px;
+                margin-top: 0px;
+                transform: translateY(-100%);
+            }
+        }
+
+        @-webkit-keyframes moveToTopFade {
+            to {
+                opacity: .3;
+                height: 0px;
+                margin-top: 0px;
+                opacity: 0.3;
+                -webkit-transform: translateY(-100%);
+            }
+        }
+
+        @-moz-keyframes moveToTopFade {
+            to {
+                height: 0px;
+                -moz-transform: translateY(-100%);
+            }
+        }
+
+        @keyframes moveToTopFade {
+            to {
+                height: 0px;
+                transform: translateY(-100%);
+            }
+        }
+
+        @-webkit-keyframes moveToTopFadeMonth {
+            to {
+                opacity: 0;
+                -webkit-transform: translateY(-30%) scale(.95);
+            }
+        }
+
+        @-moz-keyframes moveToTopFadeMonth {
+            to {
+                opacity: 0;
+                -moz-transform: translateY(-30%);
+            }
+        }
+
+        @keyframes moveToTopFadeMonth {
+            to {
+                opacity: 0;
+                -moz-transform: translateY(-30%);
+            }
+        }
+
+        @-webkit-keyframes moveFromTopFadeMonth {
+            from {
+                opacity: 0;
+                -webkit-transform: translateY(30%) scale(.95);
+            }
+        }
+
+        @-moz-keyframes moveFromTopFadeMonth {
+            from {
+                opacity: 0;
+                -moz-transform: translateY(30%);
+            }
+        }
+
+        @keyframes moveFromTopFadeMonth {
+            from {
+                opacity: 0;
+                -moz-transform: translateY(30%);
+            }
+        }
+
+        @-webkit-keyframes moveToBottomFadeMonth {
+            to {
+                opacity: 0;
+                -webkit-transform: translateY(30%) scale(.95);
+            }
+        }
+
+        @-moz-keyframes moveToBottomFadeMonth {
+            to {
+                opacity: 0;
+                -webkit-transform: translateY(30%);
+            }
+        }
+
+        @keyframes moveToBottomFadeMonth {
+            to {
+                opacity: 0;
+                -webkit-transform: translateY(30%);
+            }
+        }
+
+        @-webkit-keyframes moveFromBottomFadeMonth {
+            from {
+                opacity: 0;
+                -webkit-transform: translateY(-30%) scale(.95);
+            }
+        }
+
+        @-moz-keyframes moveFromBottomFadeMonth {
+            from {
+                opacity: 0;
+                -webkit-transform: translateY(-30%);
+            }
+        }
+
+        @keyframes moveFromBottomFadeMonth {
+            from {
+                opacity: 0;
+                -webkit-transform: translateY(-30%);
+            }
+        }
+
+        @-webkit-keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+        }
+
+        @-moz-keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+        }
+
+        @-webkit-keyframes fadeOut {
+            to {
+                opacity: 0;
+            }
+        }
+
+        @-moz-keyframes fadeOut {
+            to {
+                opacity: 0;
+            }
+        }
+
+        @keyframes fadeOut {
+            to {
+                opacity: 0;
+            }
+        }
+
+        @-webkit-keyframes fadeOutShink {
+            to {
+                opacity: 0;
+                padding: 0px;
+                height: 0px;
+            }
+        }
+
+        @-moz-keyframes fadeOutShink {
+            to {
+                opacity: 0;
+                padding: 0px;
+                height: 0px;
+            }
+        }
+
+        @keyframes fadeOutShink {
+            to {
+                opacity: 0;
+                padding: 0px;
+                height: 0px;
+            }
+        }
+    </style>
+    <style>
+        .not-slider {
+            position: relative;
+        }
+
+        .not-slider .owl-nav {
+            position: absolute;
+            top: 20px;
+            width: 100%;
+        }
+
+        .not-slider .owl-nav .owl-prev {
+            position: absolute;
+            left: -3px;
+            padding: 5px 7px;
+            font-size: 20px;
+        }
+
+        .not-slider .owl-nav .owl-next {
+            position: absolute;
+            right: 10px;
+            padding: 5px 7px;
+            font-size: 20px;
+        }
+
+        .nsl {
+            position: relative;
+        }
+
+        .nsl span {
+            font-size: 13px;
+        }
+
+        .nsl.nm {
+            position: absolute;
+            left: 5px;
+            top: 6px;
+            font-size: 10px;
+            font-weight: bold;
+        }
+    </style>
+    <style>
+        .mobile {
+            display: none;
+        }
+
+        .desktop {
+            display: block;
+        }
+
+        @media (max-width: 480px) {
+            .mobile {
+                display: block;
+            }
+            .desktop {
+                display: none !important;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <style>
+        .content-box-ffr {
+            position: absolute;
+            top: 0;
+            z-index: 30000;
+            width: 100%;
+        }
+    </style>
+    <style>
+        #anii4 {
+            position: absolute;
+            right: 20px;
+            top: 75px;
+            z-index: 2000;
+            display: inline-block;
+            text-align: center;
+        }
+
+        .msb {
+            display: none;
+        }
+
+        /*#anii b { color:yellow; }*/
+
+        @media (max-width: 480px) {
+            #anii4 {
+                width: 100%;
+                text-align: center;
+                top: 45px;
+                right: 0px;
+                z-index: 2000;
+                display: block !important;
+                margin-bottom: 10px;
+            }
+            .dsk {
+                display: none !important;
+            }
+            .msb {
+                display: block;
+            }
+            /*#ani b { color:red; }*/
+            .black-friday {
+                margin-top: 40px;
+            }
+        }
+    </style>
+
+    <section class="content-box-ffr">
+
+
+        <style>
+            /* Dropdown Button */
+
+            .dropbtn {
+                color: rgb(255, 255, 255);
+                border: none;
+            }
+
+            /* The container <div> - needed to position the dropdown content */
+
+            /*.dropdown {*/
+
+            /*  position: relative;*/
+
+            /*  display: inline-block;*/
+
+            /*}*/
+
+            /* Dropdown Content (Hidden by Default) */
+
+            .dropdown-content {
+                display: none;
+                position: absolute;
+                background-color: #f1f1f1;
+                min-width: 160px;
+                box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+                z-index: 1;
+            }
+
+            .dropdown-content.show {
+                display: block !important;
+            }
+
+            /* Links inside the dropdown */
+
+            .dropdown-content a {
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+            }
+
+            /* Change color of dropdown links on hover */
+
+            /* Show the dropdown menu on hover */
+
+            /*.dropdown:hover .dropdown-content {display: block;}*/
+
+            .fdnbtn {
+                margin-top: 10px;
+                border-radius: 0;
+            }
+
+            .fdb-item {
+                padding: 10px 10px !important;
+            }
+
+            @media (max-width: 480px) {
+                .fdnwrapper {
+                    position: fixed;
+                    width: 100%;
+                    top: 0;
+                    z-index: 30000 !important;
+                }
+                .fdnbtn {
+                    width: 100%;
+                    border-radius: 0;
+                    padding: 10px 10px;
+                    margin-top: 0px;
+                }
+                .fdbdm {
+                    width: 100%;
+                    position: fixed !important;
+                    top: 40px;
+                }
+                .ddspi {
+                    margin-top: 30px !important;
+                }
+            }
+        </style>
+        <style>
+            .survey {
+                position: fixed;
+                left: 20px;
+                bottom: 20px;
+                width: 20%;
+                height: auto;
+                z-index: 2000;
+                padding: 10px;
+                background-color: #f3f5f9;
+                border-radius: 3px;
+                border: 1px solid #e5e8ed;
+                display: none;
+            }
+
+            @media (max-width: 480px) {
+                .survey {
+                    width: 250px !important;
+                    /*height: 250px;*/
+                }
+            }
+
+            .survey .survey-title h6 {
+                font-size: 18px;
+                font-weight: 500;
+                color: #18151e;
+            }
+
+            .survey .survey-desc {
+                font-size: 14px;
+                font-weight: 400;
+                color: #7c7c7c;
+            }
+
+            .survey .survey-close {
+                padding: 2px 8px;
+                font-size: 17px;
+                cursor: pointer;
+            }
+        </style>
+
+
+
+        <style>
+            .cookie-overlay {
+                position: fixed;
+                z-index: 30000;
+                height: 100%;
+                width: 100%;
+                display: none;
+                top: 0;
+                background-color: #00000050;
+            }
+
+            .cookie-pop {
+                margin: 60px 20%;
+                width: 60%;
+                height: auto;
+                background-color: #fff;
+                box-shadow: 0px 0px 30px 0px rgba(82, 63, 105, 0.15);
+            }
+
+            .cookie-pop-inner {
+                padding: 15px;
+            }
+
+            @media (max-width: 480px) {
+                .cookie-pop {
+                    margin: 60px 10%;
+                    width: 80%;
+                }
+            }
+        </style>
+        <style>
+            .static-box {
+                background-color: rgba(0, 0, 0, 0.78);
+                width: 730px;
+                padding: 10px 10px;
+                margin: 0px auto;
+                overflow: visible;
+                position: relative;
+            }
+
+            @media (max-width:480px) {
+                .static-box {
+                    width: 85%;
+                }
+            }
+
+            .modal-b-close-2 {
+                color: #fff;
+                position: absolute;
+                font-size: 18px;
+                font-weight: bold;
+                top: -10px;
+                left: -7px;
+                padding: 3px 5px;
+                background-color: #ee5253;
+                border-radius: 50px;
+                width: 25px;
+                display: inline-block !important;
+            }
+        </style>
+
+        <style>
+            .mdiscontainer {
+                width: 100%;
+                padding: 10px;
+            }
+
+            @media (max-width: 480px) {
+                .mdisrow {
+                    flex-wrap: nowrap;
+                    overflow-x: scroll;
+                    margin: 0px !important;
+                    padding: 0px !important;
+                }
+                .mdiscontainer {
+                    padding: 0px;
+                    margin: 0px;
+                }
+                .cdi6md {
+                    width: 100%;
+                    min-width: 100vw;
+                    margin: 0 !important;
+                }
+            }
+        </style>
+        <link rel="stylesheet" href="fontawesome-free/css/all.min.css">
+        <!-- DataTables -->
+        <link rel="stylesheet" href="datatables-bs4/css/dataTables.bootstrap4.min.css">
+        <link rel="stylesheet" href="datatables-responsive/css/responsive.bootstrap4.min.css">
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-MRGY5RG2QP"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag('js', new Date());
+
+            gtag('config', 'G-MRGY5RG2QP');
+        </script>
+        <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
+        <style type="text/css">
+            #free_ball_tab_main,
+            #free_ball_tab1,
+            #free_ball_tab2,
+            #free_ball_tab3,
+            #free_ball_tab4,
+            #free_ball_tab5,
+            #free_ball_tab6 {
+                padding: 5px;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+
+            #free_other_tab_main,
+            #free_other_tab1,
+            #free_other_tab2,
+            #free_other_tab3,
+            #free_other_tab4,
+            #free_other_tab5,
+            #free_other_tab6 {
+                padding: 5px;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+
+            a {
+                text-decoration: none;
+            }
+
+            html,
+            body {
+                width: auto !important;
+                overflow-x: hidden !important;
+            }
+        </style>
+        <div class="header" style="position: fixed;width: 100%;z-index:4;">
+            <style>
+                @media screen and (max-width: 700px) {
+                    #hidden_date {
+                        display: block;
+                    }
+                    #hidden_date2 {
+                        display: none;
+                    }
+                }
+
+                @media screen and (max-width: 400px) {
+                    #hidden_date2 {
+                        display: none;
+                    }
+                    #hidden_date {
+                        display: none;
+                    }
+                }
+
+                body {
+                    background: whitesmoke;
+                }
+
+                .footer-links {
+                    text-decoration: none;
+                }
+
+                .pricez {
+                    color: rgb(9, 86, 173);
+                    text-decoration: none;
+                }
+
+                .pricez:hover {
+                    color: black;
+                }
+
+                @media screen and (max-width: 991px) {
+                    #big_banner {
+                        display: none;
+                    }
+                }
+
+                @media screen and (min-width: 991px) {
+                    #big_banner {
+                        display: block;
+                    }
+                }
+
+                video {
+                    object-fit: fill;
+                }
+            </style>
+
+            <div id="navbar" class="header-bottom">
+                <div class="container-fluid">
+                    <div class="row">
+                        
+                        <div class="col-xl-1 col-lg-1 d-xl-flex d-lg-flex d-block align-items-center">
+                            <div class="row" style="padding-top:4px;">
+
+
+
+                                <div class="col-xl-12 col-lg-12  col-3  d-xl-block d-lg-block d-flex align-items-center">
+                                    <div class="logo">
+                                        <a href="index.php">
+<img src="logo.png">
+</a>
+                                    </div>
+                                </div>
+                                <div class="col-7 d-xl-none d-lg-none d-block" style="padding:0px;margin:0px;">
+
+                                    <a href="https://refpa16790.top/L?tag=d_1675889m_1599c_&site=1675889&ad=1599&r=registration" target="_blank">
+ <img src="files/images/1xbet3.jpeg" class=""width="100%"height="50px" alt="..."style="">
+ </a>
+                                    <!--<img src="files/images/1xbet2.jpeg" class=""width="100%"height="100%" alt="..."style="">-->
+
+
+
+                                </div>
+                                <div class="col-2 d-xl-none d-lg-none d-block">
+                                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+<i class="fas fa-bars"></i>
+</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6">
+                            <div class="mainmenu">
+                                <nav class="navbar navbar-expand-lg">
+                                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                        <ul class="navbar-nav ml-auto">
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="index.php">Home</a>
+                                            </li>
+                                            <li class="nav-item dropdown">
+                                                <a class="nav-link dropdown-toggle" href="#" id="pDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+Predictions
+</a>
+                                                <div class="dropdown-menu" aria-labelledby="pDropdown">
+                                                    <a class="dropdown-item" href="predictions.php">Football Predictions</a>
+                                                    <a class="dropdown-item" href="basketball.php">Basketball Predictions</a>
+                                                    <a class="dropdown-item" href="boxing.php">Boxing Predictions</a>
+                                                    <a class="dropdown-item" href="tennis.php">Tennis Predictions</a>
+                                                    <a class="dropdown-item" href="ice-hockey.php">Ice Hockey Predictions</a>
+                                                </div>
+                                            </li>
+
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="pricing.php">Pricing</a>
+                                            </li>
+
+
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="howto.php">How to Pay</a>
+                                            </li>
+                                            <!--<li class="nav-item">
+<a class="nav-link" href="contact.php">Contact</a>
+</li>-->
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="login.php" id="session_out_login" style="display:none;">Login</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="account.php" id="session_in_dashboard" style="display:none;">Dashboard</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </nav>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-5 col-lg-5" style="padding:0px;margin-top:5px;" id="big_banner">
+
+                            <a href="https://refpa16790.top/L?tag=d_1675889m_1599c_&site=1675889&ad=1599&r=registration" target="_blank">
+ <img src="files/images/1xbet3.jpeg" class=""width="100%" alt="..."style="">
+ </a>
+
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <br><br><br><br><br>
+
+        <div class="container">
+            <div class="row justify-content-xl-start justify-content-lg-center justify-content-md-center mb-3 m-rtl" id="banner_frame">
+
+                <div class="col-md-12 bg-white">
+                    <div class="row" align="center">
+                        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" style="">
+                            <div class="carousel-inner" id="inner_one">
+
+
+                                <div class="carousel-item active">
+                                    <img src="files/images/s1.jpg" class="d-block w-100 rounded" loading="lazy" alt="..." style="min-height:150px;">
+                                </div>
+
+                                <div class="carousel-item">
+                                    <img src="files/images/s2.jpg" class="d-block w-100 rounded" loading="lazy" alt="..." style="min-height:150px;">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="files/images/1.jpg" class="d-block w-100 rounded" loading="lazy" alt="..." style="min-height:150px;">
+                                </div>
+
+
+
+                                <div class="carousel-item">
+                                    <img src="files/images/2.png" class="d-block w-100 rounded" loading="lazy" alt="..." style="min-height:150px;">
+                                </div>
+
+                                <div class="carousel-item">
+                                    <img src="files/images/3.jpg" class="d-block w-100 rounded" loading="lazy" alt="..." style="min-height:150px;">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="files/images/4.jpg" class="d-block w-100 rounded" loading="lazy" alt="..." style="min-height:150px;">
+                                </div>
+
+
+                            </div>
+
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row justify-content-xl-start justify-content-lg-center justify-content-md-center m-rtl">
+                <div class="col-xl-6 col-lg-6 media-p cdi6md bg-white">
+                    <div class="tab-content" id="pills-football-tabContent">
+                        <div class="tab-pane fade show active" id="pills-football" role="tabpanel" aria-labelledby="pills-football-tab">
+                            <div class="text-center" style="background-color:rgb(13, 89, 230);">
+                                <h4 class="text-white" style="font-size:20px;">Free Soccer Predictions</h4>
+                            </div>
+                            <div class="text-center" style="background-color:rgb(13, 109, 219);">
+                                <h4 class="text-white" style="font-size:15px;text-align: center;">
+
+                                    <table width="100%" align="center" cellpadding="10px">
+                                        <tr>
+                                            <td id="hidden_date2">
+                                                <a id="free_ball_tab1" onclick="free_ball(-3)"> Nov 07</a>
+                                            </td>
+                                            <td id="hidden_date">
+                                                <a id="free_ball_tab2" onclick="free_ball(-2)"> Nov 08</a>
+                                            </td>
+                                            <td>
+                                                <a id="free_ball_tab3" onclick="free_ball(-1)"> Nov 09</a>
+                                            </td>
+                                            <td>
+                                                <a id="free_ball_tab_main" onclick="free_ball(0)"> Today Nov 10</a>
+                                            </td>
+                                            <td>
+                                                <a id="free_ball_tab4" onclick="free_ball(1)">Nov 11</a>
+                                            </td>
+                                            <td id="hidden_date">
+                                                <a id="free_ball_tab5" onclick="free_ball(2)">Nov 12</a>
+                                            </td>
+                                            <td id="hidden_date2">
+                                                <a id="free_ball_tab6" onclick="free_ball(3)">Nov 13</a>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </h4>
+                            </div>
+                            <div class="table-responsive">
+                                <table class="table table-striped expert-picks-table">
+                                    <thead>
+                                        <tr>
+                                            <td><b>Matches</b></td>
+                                            <td><b>Tips/Odds</b></td>
+                                            <td><b>Score</b></td>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="free_body">
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <!------------------------------->
+                <div class="col-xl-6 col-lg-6 media-p cdi6md bg-white">
+                    <div class="tab-content" id="pills-other-tabContent">
+                        <div class="tab-pane fade show active" id="pills-other" role="tabpanel" aria-labelledby="pills-other-tab">
+                            <div class="text-center" style="background-color:rgb(16, 147, 223);padding: 2px;">
+                                <h4 class="text-white" style="font-size:17px;">Other Sport Free Predictions</h4>
+                                <table width="100%" align="center" style="color: white;font-size: 100%;font-weight: 500;border-top:1px solid white;border-bottom: 1px solid white;">
+                                    <tr>
+                                        <td onclick="other_sport('basketball')"><b id="bas" style="padding: 2px;border-radius: 4px;">BasketBall</b></td>
+                                        <td onclick="other_sport('tennis')"><b style="padding: 2px;border-radius: 4px;" id="ten">Tennis</b></td>
+                                        <td onclick="other_sport('boxing')"><b style="padding: 2px;border-radius: 4px;" id="box">Boxing</b></td>
+                                        <td onclick="other_sport('hockey')"><b style="padding: 2px;border-radius: 4px;" id="hoc">Hockey</b></td>
+                                    </tr>
+                                </table>
+
+
+                            </div>
+                            <div class="text-center" style="background-color:#060;">
+
+                                <h4 class="text-white" style="font-size:15px;text-align: center;">
+
+                                    <table width="100%" align="center" cellpadding="10px">
+                                        <tr>
+                                            <td id="hidden_date2">
+                                                <a style="color:white;" id="free_other_tab1" onclick="free_ballsket(-3)"> Nov 07</a>
+                                            </td>
+                                            <td id="hidden_date">
+                                                <a id="free_other_tab2" style="color:white;" onclick="free_ballsket(-2)"> Nov 08</a>
+                                            </td>
+                                            <td>
+                                                <a id="free_other_tab3" style="color:white;" onclick="free_ballsket(-1)"> Nov 09</a>
+                                            </td>
+                                            <td>
+                                                <a id="free_other_tab_main" style="color:white;" onclick="free_ballsket(0)"> Today Nov 10</a>
+                                            </td>
+                                            <td>
+                                                <a id="free_other_tab4" style="color:white;" onclick="free_ballsket(1)">Nov 11</a>
+                                            </td>
+                                            <td id="hidden_date">
+                                                <a id="free_other_tab5" style="color:white;" onclick="free_ballsket(2)">Nov 12</a>
+                                            </td>
+                                            <td id="hidden_date2">
+                                                <a id="free_other_tab6" style="color:white;" onclick="free_ballsket(3)">Nov 13</a>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </h4>
+                            </div>
+                            <div class="table-responsive">
+                                <table class="table table-striped expert-picks-table">
+                                    <thead>
+                                        <tr>
+
+                                            <td><b>Sport</b></td>
+                                            <td><b>Matches</b></td>
+                                            <td><b>Tips/Odds</b></td>
+                                            <td><b>Score</b></td>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="free_ballsket">
+
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+
+        <div class="advert-leatherboard mt-5">
+            <div class="container text-center">
+            </div>
+        </div>
+        <style>
+            .categ-icon {
+                padding-top: 100px;
+                padding-bottom: 50px;
+            }
+
+            .categ-icon img {
+                width: 75px !important;
+            }
+
+            .categ-icon .d-flex a {
+                width: 25% !important;
+                max-width: 25% !important;
+                min-height: 25% !important;
+            }
+
+            @media (max-width:480px) {
+                .categ-icon {
+                    padding-top: 50px;
+                    padding-bottom: 50px;
+                }
+                .ctText {
+                    font-size: 12px !important;
+                }
+                .categ-icon img {
+                    width: 65px !important;
+                }
+            }
+        </style>
+        <style>
+            .iption {
+                width: 33.33%;
+            }
+
+            @media (max-width: 480px) {
+                .Tfb3 {
+                    width: 33.33%;
+                }
+                .Tf20 {
+                    width: 20%;
+                }
+                .Tf30 {
+                    width: 30%;
+                }
+                .Tf40 {
+                    width: 40%;
+                }
+                .Tf50 {
+                    width: 50%;
+                }
+                .Tf60 {
+                    width: 60%;
+                }
+                .Tf70 {
+                    width: 70%;
+                }
+                .Tf80 {
+                    width: 80%;
+                }
+                .Tf10 {
+                    width: 100%;
+                }
+                .away-form span:nth-child(4),
+                .away-form span:last-child {
+                    display: none;
+                }
+                .home-form span:nth-child(4),
+                .home-form span:last-child {
+                    display: none;
+                }
+            }
+
+            .oddHL {
+                box-shadow: 1px 1px 4px 1px rgb(0 0 0 / 10%);
+                font-weight: 490;
+                border: 1px solid #dcdcdc;
+                padding: 3px 6px;
+                margin-bottom: 3px;
+                border-radius: 3px;
+            }
+
+            .oddHL:hover {
+                background: red;
+                color: #fff;
+                border: none;
+            }
+        </style>
+
+
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 mb-3" style="border-right: 1px solid #dcdcdc;">
+                    <a href="https://refpa16790.top/L?tag=d_1675889m_1599c_&site=1675889&ad=1599&r=registration" target="_blank" style="padding:0px;margin:0px;">
+<video  width="100%"height="100px" autoplay="autoplay" muted="muted" loop="true" id="vid">
+		<source src="files/images/1xbetgif2.mp4" type="video/mp4">
+		</video>
+		</a>
+
+
+
+                </div>
+            </div>
+        </div>
+        <div class="advert-leatherboard categ-icon bg-white">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 mb-3" style="border-right: 1px solid #dcdcdc;">
+                        <div class="title text-center">
+                            <h4>Football Popular Categories</h4>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="d-flex justify-content-between">
+                                <a href="predictions.php">
+                                    <div class="text-center">
+                                        <img src="files/OVER-15.png">
+                                        <p class="ctText"><b>1.5 Goals</b></p>
+                                    </div>
+                                </a>
+                                <a href="predictions.php">
+                                    <div class="text-center">
+                                        <img src="files/images/draw.png">
+                                        <p class="ctText"><b>Draws</b></p>
+                                    </div>
+                                </a>
+                                <a href="predictions.php">
+                                    <div class="text-center">
+                                        <img src="files/Double-Chance-new.png">
+                                        <p class="ctText"><b>Double Chance</b></p>
+                                    </div>
+                                </a>
+                                <div class="text-center">
+                                    <a href="predictions.php">
+<img src="files/Correct-Score-new.png">
+<p class="ctText mb-1"><b>Correct Score</b></p>
+</a>
+
+
+
+
+
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-center">
+                            <a href="predictions.php" class="btn btn-lg btn-danger text-white">View More Categories <i class="fa fa-angle-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="title text-center">
+                            <h4>Other Sports Popular Categories</h4>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="d-flex justify-content-between">
+                                <a href="basketball.php">
+                                    <div class="text-center">
+                                        <img src="files/Basketball-1.png">
+                                        <p class="ctText p-0 m-0"><b>Basketball</b></p>
+                                    </div>
+                                </a>
+                                <a href="boxing.php">
+                                    <div class="text-center">
+                                        <img src="files/images/boxing.png">
+                                        <p class="ctText p-0 m-0"><b>Boxing</b></p>
+                                    </div>
+                                </a>
+                                <a href="ice-hockey.php">
+                                    <div class="text-center">
+                                        <img src="files/Ice-Hockey-1.png">
+                                        <p class="ctText p-0 m-0"><b>Ice Hockey</b></p>
+                                    </div>
+                                </a>
+                                <a href="tennis.php">
+                                    <div class="text-center">
+                                        <img src="files/Tennis-1.png">
+                                        <p class="ctText p-0 m-0"><b>Tennis</b></p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="text-center mt-2">
+                            <a href="basketball.php" class="btn btn-lg btn-danger text-white" style="background:#060;border-color:#060;">
+View More Categories <i class="fa fa-angle-right"></i>
+</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container" style="margin-bottom:20px;margin-top:20px;background:white;">
+            <div class="row">
+                <div class="col-md-12" id="accordion">
+                    <div class="fantasy_sectionMiddleInnerToggle">
+                        <div class="" style="text-align: center !important;font-size: 30px; padding: 20px;font-weight: 600;">Subscribe to Premium plan to have direct access to our Expert!</div>
+
+                        <div class="fantasy_sectionMiddleCard" style="border-bottom: 6px solid #FC3232;">
+                            <div class="col-md-12">
+                                <div class="row p-3 mb-2">
+                                    <div class="col-md-3 p-1 text-center">
+                                        
+                                    </div>
+                                    <div class="col-md-9 text-left" style="padding: 6px;">
+                                        <h6 class="text-center">
+                                            <span>
+<img class="icoCountryFlag" style="width:30px;height: 30px; transform: none; margin:5px;" src="files/football3.png">
+</span>SPORTVERIFIED EXPERT
+                                            <small class="text-success float-none" style="border-radius: .15rem; padding: .30em .4em;font-weight: 500;">SOCCER</small>
+                                        </h6>
+
+                                    </div>
+                                    <div class="col-md-12 text-right" id="heading" style="width:100%; margin-bottom: 10px;">
+                                        <a href="pricing.php" class="btn text-white btn-sm mt-1" style="width:100%;background:green;color:white;font-weight:600;font-size:100%;padding:10px;">Subscribe to Premium plan to Get Access.</a>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+        <div class="betting" id="in_play">
+            <div class="container">
+                <div class="betting-table">
+                    <div class="row">
+
+                        <div class="col-xl-12 col-lg-12">
+                            <div class="tab-content bet-tab-content" id="myTabContent">
+                                <div class="tab-pane fade show active" id="all-sports" role="tabpanel" aria-labelledby="all-sports-tab">
+                                    <div class="sport-content-title">
+                                        <h3>Trending Predictions</h3>
+                                    </div>
+                                    <div class="sports-list bg-white">
+                                        <div class="d-flex justify-content-between title p-2 bg-white">
+                                            <h4>Today's Football Popular Predictions</h4>
+                                        </div>
+                                        <div class="col-md-12 bg-white">
+                                            <div class="table-responsive">
+                                                <table class="table">
+                                                    <thead>
+                                                        <tr>
+                                                            <td>
+                                                                <h6>Event</h6>
+                                                            </td>
+                                                            <td class="text-center"><small><b>Tips</b></small></td>
+                                                            <td class="text-center"><small><b>Odd</b></small></td>
+                                                            <td class="text-center"><small><b>Time</b></small></td>
+                                                            <td></td>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+
+                                                        <tr>
+                                                            <td>
+                                                                <div><small><b></b>Ararat-Armenia vs Pyunik Yerevan</b></small></div>
+                                                                <div class="d-flex">
+
+                                                                    <img src="emblem/851044818200.jpg" width="20" height="15px" style="margin-right:4px;"><br>
+                                                                    <small class="p-0 pr-2 mr-2" style="border-right:1px solid #dcdcdc;">Premier League</small>
+                                                                </div>
+                                                            </td>
+                                                            <td class="text-center "><small style="font-weight: 800;">1X</small></td>
+                                                            <td class="text-center "><small style="font-weight: 800;">1.23</small></td>
+                                                            <td class="text-center "><small>14:00</small></td>
+
+                                                        </tr>
+
+
+                                                        <tr>
+                                                            <td>
+                                                                <div><small><b></b>Botafogo RJ vs Santos</b></small></div>
+                                                                <div class="d-flex">
+
+                                                                    <img src="emblem/935331220226.png" width="20" height="15px" style="margin-right:4px;"><br>
+                                                                    <small class="p-0 pr-2 mr-2" style="border-right:1px solid #dcdcdc;">Serie A</small>
+                                                                </div>
+                                                            </td>
+                                                            <td class="text-center "><small style="font-weight: 800;">1X</small></td>
+                                                            <td class="text-center "><small style="font-weight: 800;">1.20</small></td>
+                                                            <td class="text-center "><small>23:45</small></td>
+
+                                                        </tr>
+
+
+                                                        <tr>
+                                                            <td>
+                                                                <div><small><b></b>ES Metlaoui vs EO Sidi Bouzid</b></small></div>
+                                                                <div class="d-flex">
+
+                                                                    <img src="emblem/582003456633.jpg" width="20" height="15px" style="margin-right:4px;"><br>
+                                                                    <small class="p-0 pr-2 mr-2" style="border-right:1px solid #dcdcdc;">Ligue 1</small>
+                                                                </div>
+                                                            </td>
+                                                            <td class="text-center "><small style="font-weight: 800;">UNDER 2.5</small></td>
+                                                            <td class="text-center "><small style="font-weight: 800;">1.48</small></td>
+                                                            <td class="text-center "><small>14:30</small></td>
+
+                                                        </tr>
+
+
+                                                        <tr>
+                                                            <td>
+                                                                <div><small><b></b>Al-Fahaheel vs Al Jahra</b></small></div>
+                                                                <div class="d-flex">
+
+                                                                    <img src="emblem/977525731269.jpg" width="20" height="15px" style="margin-right:4px;"><br>
+                                                                    <small class="p-0 pr-2 mr-2" style="border-right:1px solid #dcdcdc;">Premier League</small>
+                                                                </div>
+                                                            </td>
+                                                            <td class="text-center "><small style="font-weight: 800;">1X</small></td>
+                                                            <td class="text-center "><small style="font-weight: 800;">1.25</small></td>
+                                                            <td class="text-center "><small>17:45</small></td>
+
+                                                        </tr>
+
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!---------------------------------------------------->
+                    <div class="row">
+                        <div class="col-xl-12 col-lg-12">
+                            <div class="tab-content bet-tab-content" id="myTabContent">
+                                <div class="tab-pane fade show active" id="all-sports" role="tabpanel" aria-labelledby="all-sports-tab">
+                                    <div class="sport-content-title">
+                                        <h3>Upcoming Events Predictions</h3>
+                                    </div>
+                                    <div class="sports-list  bg-white">
+                                        <div class="col-md-12 bg-white">
+                                            <div class="table-responsive">
+                                                <table class="table">
+                                                    <thead>
+                                                        <tr>
+                                                            <td>
+                                                                <h6>Event</h6>
+                                                            </td>
+                                                            <td class="text-center"><small><b>Tips</b></small></td>
+                                                            <td class="text-center"><small><b>Odd</b></small></td>
+                                                            <td class="text-center"><small><b>Date</b></small></td>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+
+                                                        <tr>
+                                                            <td>
+                                                                <div><small><b></b>Santa Clara Azores vs Estoril</b></small></div>
+                                                                <div class="d-flex">
+
+                                                                    <img src="emblem/972722360538.jpg" width="20" height="15px" style="margin-right:4px;"><br>
+                                                                    <small class="p-0 pr-2 mr-2" style="border-right:1px solid #dcdcdc;">PrimeiraLiga</small>
+                                                                </div>
+                                                            </td>
+                                                            <td class="text-center "><small style="font-weight: 800;">1X</small></td>
+                                                            <td class="text-center "><small style="font-weight: 800;">1.28</small></td>
+                                                            <td class="text-center "><small>2022-11-14</small></td>
+
+                                                        </tr>
+
+
+                                                        <tr>
+                                                            <td>
+                                                                <div><small><b></b>Fulham vs Manchester Utd</b></small></div>
+                                                                <div class="d-flex">
+
+                                                                    <img src="emblem/231607153452.jpg" width="20" height="15px" style="margin-right:4px;"><br>
+                                                                    <small class="p-0 pr-2 mr-2" style="border-right:1px solid #dcdcdc;">EPL</small>
+                                                                </div>
+                                                            </td>
+                                                            <td class="text-center "><small style="font-weight: 800;">X2</small></td>
+                                                            <td class="text-center "><small style="font-weight: 800;">1.24</small></td>
+                                                            <td class="text-center "><small>2022-11-13</small></td>
+
+                                                        </tr>
+
+
+                                                        <tr>
+                                                            <td>
+                                                                <div><small><b></b>Juventus vs Lazio</b></small></div>
+                                                                <div class="d-flex">
+
+                                                                    <img src="emblem/901101693138.jpg" width="20" height="15px" style="margin-right:4px;"><br>
+                                                                    <small class="p-0 pr-2 mr-2" style="border-right:1px solid #dcdcdc;">Serie A</small>
+                                                                </div>
+                                                            </td>
+                                                            <td class="text-center "><small style="font-weight: 800;">GG OR Ov(2.5)</small></td>
+                                                            <td class="text-center "><small style="font-weight: 800;">1.46</small></td>
+                                                            <td class="text-center "><small>2022-11-13</small></td>
+
+                                                        </tr>
+
+
+                                                        <tr>
+                                                            <td>
+                                                                <div><small><b></b>AC Milan vs Fiorentina</b></small></div>
+                                                                <div class="d-flex">
+
+                                                                    <img src="emblem/901101693138.jpg" width="20" height="15px" style="margin-right:4px;"><br>
+                                                                    <small class="p-0 pr-2 mr-2" style="border-right:1px solid #dcdcdc;">Serie A</small>
+                                                                </div>
+                                                            </td>
+                                                            <td class="text-center "><small style="font-weight: 800;">1 DNB</small></td>
+                                                            <td class="text-center "><small style="font-weight: 800;">1.30</small></td>
+                                                            <td class="text-center "><small>2022-11-13</small></td>
+
+                                                        </tr>
+
+
+                                                        <tr>
+                                                            <td>
+                                                                <div><small><b></b>Atalanta vs Inter</b></small></div>
+                                                                <div class="d-flex">
+
+                                                                    <img src="emblem/901101693138.jpg" width="20" height="15px" style="margin-right:4px;"><br>
+                                                                    <small class="p-0 pr-2 mr-2" style="border-right:1px solid #dcdcdc;">Serie A</small>
+                                                                </div>
+                                                            </td>
+                                                            <td class="text-center "><small style="font-weight: 800;">X</small></td>
+                                                            <td class="text-center "><small style="font-weight: 800;">3.60</small></td>
+                                                            <td class="text-center "><small>2022-11-13</small></td>
+
+                                                        </tr>
+
+
+                                                        <tr>
+                                                            <td>
+                                                                <div><small><b></b>PSG vs Auxerre</b></small></div>
+                                                                <div class="d-flex">
+
+                                                                    <img src="emblem/377646487811.jpg" width="20" height="15px" style="margin-right:4px;"><br>
+                                                                    <small class="p-0 pr-2 mr-2" style="border-right:1px solid #dcdcdc;">Ligue 1</small>
+                                                                </div>
+                                                            </td>
+                                                            <td class="text-center "><small style="font-weight: 800;">1 & Ov(2.5)</small></td>
+                                                            <td class="text-center "><small style="font-weight: 800;">1.50</small></td>
+                                                            <td class="text-center "><small>2022-11-13</small></td>
+
+                                                        </tr>
+
+
+                                                        <tr>
+                                                            <td>
+                                                                <div><small><b></b>Schalke vs Bayern Munich</b></small></div>
+                                                                <div class="d-flex">
+
+                                                                    <img src="emblem/841442931117.jpg" width="20" height="15px" style="margin-right:4px;"><br>
+                                                                    <small class="p-0 pr-2 mr-2" style="border-right:1px solid #dcdcdc;">BundesLiga</small>
+                                                                </div>
+                                                            </td>
+                                                            <td class="text-center "><small style="font-weight: 800;">ASBH</small></td>
+                                                            <td class="text-center "><small style="font-weight: 800;">1.44</small></td>
+                                                            <td class="text-center "><small>2022-11-12</small></td>
+
+                                                        </tr>
+
+
+                                                        <tr>
+                                                            <td>
+                                                                <div><small><b></b>Wolves vs Arsenal</b></small></div>
+                                                                <div class="d-flex">
+
+                                                                    <img src="emblem/231607153452.jpg" width="20" height="15px" style="margin-right:4px;"><br>
+                                                                    <small class="p-0 pr-2 mr-2" style="border-right:1px solid #dcdcdc;">EPL</small>
+                                                                </div>
+                                                            </td>
+                                                            <td class="text-center "><small style="font-weight: 800;">AWEH</small></td>
+                                                            <td class="text-center "><small style="font-weight: 800;">1.30</small></td>
+                                                            <td class="text-center "><small>2022-11-12</small></td>
+
+                                                        </tr>
+
+
+                                                        <tr>
+                                                            <td>
+                                                                <div><small><b></b>Newcastle Utd vs Chelsea</b></small></div>
+                                                                <div class="d-flex">
+
+                                                                    <img src="emblem/231607153452.jpg" width="20" height="15px" style="margin-right:4px;"><br>
+                                                                    <small class="p-0 pr-2 mr-2" style="border-right:1px solid #dcdcdc;">EPL</small>
+                                                                </div>
+                                                            </td>
+                                                            <td class="text-center "><small style="font-weight: 800;">ATS OVER 0.5</small></td>
+                                                            <td class="text-center "><small style="font-weight: 800;">1.31</small></td>
+                                                            <td class="text-center "><small>2022-11-12</small></td>
+
+                                                        </tr>
+
+
+                                                        <tr>
+                                                            <td>
+                                                                <div><small><b></b>Tottenham vs Leeds Utd</b></small></div>
+                                                                <div class="d-flex">
+
+                                                                    <img src="emblem/231607153452.jpg" width="20" height="15px" style="margin-right:4px;"><br>
+                                                                    <small class="p-0 pr-2 mr-2" style="border-right:1px solid #dcdcdc;">EPL</small>
+                                                                </div>
+                                                            </td>
+                                                            <td class="text-center "><small style="font-weight: 800;">OVER 8.5 (C)</small></td>
+                                                            <td class="text-center "><small style="font-weight: 800;">1.32</small></td>
+                                                            <td class="text-center "><small>2022-11-12</small></td>
+
+                                                        </tr>
+
+
+                                                        <tr>
+                                                            <td>
+                                                                <div><small><b></b>Liverpool vs Southampton</b></small></div>
+                                                                <div class="d-flex">
+
+                                                                    <img src="emblem/231607153452.jpg" width="20" height="15px" style="margin-right:4px;"><br>
+                                                                    <small class="p-0 pr-2 mr-2" style="border-right:1px solid #dcdcdc;">EPL</small>
+                                                                </div>
+                                                            </td>
+                                                            <td class="text-center "><small style="font-weight: 800;">1</small></td>
+                                                            <td class="text-center "><small style="font-weight: 800;">1.26</small></td>
+                                                            <td class="text-center "><small>2022-11-12</small></td>
+
+                                                        </tr>
+
+
+                                                        <tr>
+                                                            <td>
+                                                                <div><small><b></b>Manchester City vs Brentford</b></small></div>
+                                                                <div class="d-flex">
+
+                                                                    <img src="emblem/231607153452.jpg" width="20" height="15px" style="margin-right:4px;"><br>
+                                                                    <small class="p-0 pr-2 mr-2" style="border-right:1px solid #dcdcdc;">EPL</small>
+                                                                </div>
+                                                            </td>
+                                                            <td class="text-center "><small style="font-weight: 800;">OVER 2.5</small></td>
+                                                            <td class="text-center "><small style="font-weight: 800;">1.33</small></td>
+                                                            <td class="text-center "><small>2022-11-12</small></td>
+
+                                                        </tr>
+
+
+                                                        <tr>
+                                                            <td>
+                                                                <div><small><b></b>Monchengladbach vs Borussia Dortmund</b></small></div>
+                                                                <div class="d-flex">
+
+                                                                    <img src="emblem/841442931117.jpg" width="20" height="15px" style="margin-right:4px;"><br>
+                                                                    <small class="p-0 pr-2 mr-2" style="border-right:1px solid #dcdcdc;">BundesLiga</small>
+                                                                </div>
+                                                            </td>
+                                                            <td class="text-center "><small style="font-weight: 800;">BTS</small></td>
+                                                            <td class="text-center "><small style="font-weight: 800;">1.42</small></td>
+                                                            <td class="text-center "><small>2022-11-11</small></td>
+
+                                                        </tr>
+
+
+                                                        <tr>
+                                                            <td>
+                                                                <div><small><b></b> Manchester Utd vs Aston Villa</b></small></div>
+                                                                <div class="d-flex">
+
+                                                                    <img src="emblem/231607153452.jpg" width="20" height="15px" style="margin-right:4px;"><br>
+                                                                    <small class="p-0 pr-2 mr-2" style="border-right:1px solid #dcdcdc;">EFL Cup</small>
+                                                                </div>
+                                                            </td>
+                                                            <td class="text-center "><small style="font-weight: 800;">1HT OR 1FT</small></td>
+                                                            <td class="text-center "><small style="font-weight: 800;">1.31</small></td>
+                                                            <td class="text-center "><small>2022-11-10</small></td>
+
+                                                        </tr>
+
+
+                                                        <tr>
+                                                            <td>
+                                                                <div><small><b></b>Real Madrid vs Cadiz CF</b></small></div>
+                                                                <div class="d-flex">
+
+                                                                    <img src="emblem/680394614.png" width="20" height="15px" style="margin-right:4px;"><br>
+                                                                    <small class="p-0 pr-2 mr-2" style="border-right:1px solid #dcdcdc;">LaLiga</small>
+                                                                </div>
+                                                            </td>
+                                                            <td class="text-center "><small style="font-weight: 800;">OVER 2.5</small></td>
+                                                            <td class="text-center "><small style="font-weight: 800;">1.36</small></td>
+                                                            <td class="text-center "><small>2022-11-10</small></td>
+
+                                                        </tr>
+
+
+                                                        <tr>
+                                                            <td>
+                                                                <div><small><b></b>Hellas Verona vs Juventus</b></small></div>
+                                                                <div class="d-flex">
+
+                                                                    <img src="emblem/901101693138.jpg" width="20" height="15px" style="margin-right:4px;"><br>
+                                                                    <small class="p-0 pr-2 mr-2" style="border-right:1px solid #dcdcdc;">Serie A</small>
+                                                                </div>
+                                                            </td>
+                                                            <td class="text-center "><small style="font-weight: 800;">X2/X2</small></td>
+                                                            <td class="text-center "><small style="font-weight: 800;">1.36</small></td>
+                                                            <td class="text-center "><small>2022-11-10</small></td>
+
+                                                        </tr>
+
+
+
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!---end of upcoming prediction---------------------------------->
+                    <!------------------------------------------------------------------------->
+                    <!---------------start--------rollover socces--------------------------->
+                    <br>
+                    <div class="tab-content container-fluid" style="padding: 0px;">
+                        <div class="row">
+                            <div class="col-md-6" style="margin-bottom:5px;">
+                                <div class="tab-content bg-white" id="pills-pro-tabContent">
+                                    <div class="tab-pane fade show active" id="pills-pro-tips" role="tabpanel" aria-labelledby="pills-pro-tips-tab">
+                                        <div class="single-match" style="background-color:black;font-size: 100%;text-align: center;padding: 10px;">
+                                            <div class="part-head" style="">
+                                                <h5 class="matchtitle" style="font-size:18px;font-weight: 500;color:white;">Rollover Tips&nbsp; <b id="ball">(Football)</b></h5>
+                                                <p class="text-white pr-2 pl-2" style="font-size:15px;font-weight: 600;">
+                                                    <small>The Professional plan is reserved for investors looking to make meaningful profits from low odds accumulators. It has Odds from 1.6 to 2.1 This Plan offers Soccer based on minimal risks.</small>
+                                                </p>
+
+                                                <p class="text-white pr-2 pl-2 mb-2 pb-1" style="font-size:14px;">
+                                                    <small>To secure your investment, we employ a highly effective <b style="color:rgb(107, 33, 33);font-size:14px;font-weight: 800;">risk management strategy</b>. Join now to learn more.</small>
+                                                </p>
+                                            </div>
+                                            <div class="part-team text-white pb-2 pt-2">
+                                                <div class="col-md-12 col-lg-12 col-sm-12">
+                                                    <div class="row ">
+                                                        <div class="col-md-12 col-lg-12 col-sm-12">
+                                                            <div class="result-class text-left">
+                                                                <div class="ti text-center">
+                                                                    <h4 class="mt-0 mb-0">Results</h4>
+                                                                </div>
+                                                                <ul class="d-flex justify-content-between mt-3" style="padding:0px;">
+
+                                                                    <li class="inline-block" style="margin-right:5px;">
+                                                                        <span class="text-white" style="font-size:13px;">2022-11-09</span><br>
+                                                                        <span class="text-white" style="font-size:12px;">21:00</span><br>
+                                                                        <i class="fa fa-check-circle" style="color:green;font-size: 20px;"></i>
+                                                                    </li>
+
+
+
+                                                                    <li class="inline-block" style="margin-right:5px;">
+                                                                        <span class="text-white" style="font-size:13px;">2022-11-08</span><br>
+                                                                        <span class="text-white" style="font-size:12px;">19:00</span><br>
+                                                                        <i class="fa fa-check-circle" style="color:rgb(18, 108, 224);font-size: 20px;"></i>
+                                                                    </li>
+
+
+
+                                                                    <li class="inline-block" style="margin-right:5px;">
+                                                                        <span class="text-white" style="font-size:13px;">2022-11-07</span><br>
+                                                                        <span class="text-white" style="font-size:12px;">17:30</span><br>
+                                                                        <i class="fa fa-check-circle" style="color:green;font-size: 20px;"></i>
+                                                                    </li>
+
+
+
+                                                                    <li class="inline-block" style="margin-right:5px;">
+                                                                        <span class="text-white" style="font-size:13px;">2022-11-06</span><br>
+                                                                        <span class="text-white" style="font-size:12px;">15:00</span><br>
+                                                                        <i class="fa fa-check-circle" style="color:red;font-size: 20px;"></i>
+                                                                    </li>
+
+
+                                                                </ul>
+
+
+                                                                <style type="text/css">
+                                                                    .blink_me,
+                                                                    #ball {
+                                                                        animation: blinker 3s linear infinite;
+                                                                    }
+
+                                                                    @keyframes blinker {
+                                                                        50% {
+                                                                            opacity: 0;
+                                                                        }
+                                                                    }
+                                                                </style>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row mt-3">
+                                                        <div class="col-md-7 text-center acc-profit">
+                                                            <p class="text-white">
+                                                                <b style="font-size:17px !important;color:red;display:block !important;">
+78% 
+</b>
+                                                                <b>Winning Rate in the last 30 days</b>
+                                                            </p>
+                                                        </div>
+                                                        <div class="col-md-5 col-lg-5">
+                                                            <div class="match-time text-center">
+                                                                <span class="mb-2 text-white">Today's Odd</span>
+                                                                <span style="color:white;font-weight:bold;" class="blink_me">
+
+1.63
+
+</span>
+                                                            </div>
+                                                            <div class="buttons">
+                                                                <a href="account.php" class="btn btn-danger btn-sm">Get Access Now</a>
+                                                            </div>
+                                                            <!----------get count down for date---------->
+                                                            <input type="hidden" id="count_date" value="2022-11-10 12:00">
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="parttimer timer" data-date="January 18, 2022 14:00:00">
+                                                <div class="single-time">
+                                                    <span class="number hour"><p style="font-weight:600;color:white;"id="dem1">MATCH START<p id="demo1"style="font-weight:600;color:white;"></p></p></span>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6" style="margin-bottom:5px;">
+                                <div class="tab-content bg-white" id="pills-pro-tabContent">
+                                    <div class="tab-pane fade show active" id="pills-pro-tips" role="tabpanel" aria-labelledby="pills-pro-tips-tab">
+                                        <div class="single-match" style="background:#080b11;font-size: 100%;text-align: center;padding: 10px;">
+                                            <div class="part-head" style="">
+                                                <h5 class="matchtitle" style="font-size:18px;font-weight: 500;color:white;">Rollover Tips&nbsp; <b id="ball">(Other Sport)</b></h5>
+                                                <p class="text-white pr-2 pl-2" style="font-size:15px;font-weight: 600;">
+                                                    <small>The Professional plan is reserved for investors looking to make meaningful profits from low odds accumulators. It has Odds from 1.6 to 2.1 This Plan offers Boxing,Tennis, Basketball and Ice-Hockey Predictions based on minimal risks.</small>
+                                                </p>
+
+                                                <p class="text-white pr-2 pl-2 mb-2 pb-1" style="font-size:14px;">
+                                                    <small>To secure your investment, we employ a highly effective <b style="color:rgb(0, 68, 255);font-size:14px;font-weight: 800;">risk management strategy</b>. Join now to learn more.</small>
+                                                </p>
+                                            </div>
+                                            <div class="part-team text-white pb-2 pt-2">
+                                                <div class="col-md-12 col-lg-12 col-sm-12">
+                                                    <div class="row ">
+                                                        <div class="col-md-12 col-lg-12 col-sm-12">
+                                                            <div class="result-class text-left">
+                                                                <div class="ti text-center">
+                                                                    <h4 class="mt-0 mb-0">Results</h4>
+                                                                </div>
+                                                                <ul class="d-flex justify-content-between mt-3" style="padding:0px;">
+
+
+                                                                    <li class="inline-block" style="margin-right:2px;">
+                                                                        <span class="text-white" style="font-size:13px;">2022-11-09</span><br>
+                                                                        <span class="text-white" style="font-size:12px;">19:00</span><br>
+                                                                        <i class="fa fa-check-circle" style="color:red;font-size: 15px;"></i>
+                                                                    </li>
+
+
+
+                                                                    <li class="inline-block" style="margin-right:2px;">
+                                                                        <span class="text-white" style="font-size:13px;">2022-11-08</span><br>
+                                                                        <span class="text-white" style="font-size:12px;">19:00</span><br>
+                                                                        <i class="fa fa-check-circle" style="color:red;font-size: 15px;"></i>
+                                                                    </li>
+
+
+
+                                                                    <li class="inline-block" style="margin-right:2px;">
+                                                                        <span class="text-white" style="font-size:13px;">2022-11-07</span><br>
+                                                                        <span class="text-white" style="font-size:12px;">16:00</span><br>
+                                                                        <i class="fa fa-check-circle" style="color:green;font-size: 15px;"></i>
+                                                                    </li>
+
+
+
+                                                                    <li class="inline-block" style="margin-right:2px;">
+                                                                        <span class="text-white" style="font-size:13px;">2022-11-06</span><br>
+                                                                        <span class="text-white" style="font-size:12px;">18:30</span><br>
+                                                                        <i class="fa fa-check-circle" style="color:green;font-size: 15px;"></i>
+                                                                    </li>
+
+
+
+
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row mt-3">
+                                                        <div class="col-md-7 text-center acc-profit">
+                                                            <p class="text-white">
+                                                                <b style="font-size:17px !important;color:red;display:block !important;">
+74%  </b>
+                                                                <b>Winning Rate in the last 30 days</b>
+                                                            </p>
+                                                        </div>
+                                                        <div class="col-md-5 col-lg-5">
+                                                            <div class="match-time text-center">
+                                                                <span class="mb-2 text-white">Today's Odd</span>
+                                                                <span style="color:white;font-weight:bold;" class="blink_me">
+  2.15</span>
+                                                            </div>
+                                                            <div class="buttons">
+                                                                <a href="account.php" class="btn btn-danger btn-sm">Get Access Now</a>
+                                                            </div>
+
+                                                            <!----------get count down for date---------->
+                                                            <input type="hidden" id="count_date2" value="2022-11-10 17:30">
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="" data-date="January 18, 2022 14:00:00">
+                                                <div class="single-time">
+                                                    <span class="number"><p style="font-weight:600;color:white;"id="dem2">MATCH START<p id="demo2"style="font-weight:600;color:white;"></p></p></span>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-----------------------rollover other--------------------------->
+
+                    <br>
+                    <!-------------rollover end---------------------------->
+                    <!-------------------------latest results------------------------>
+
+                    <!---------------------------------------------------->
+                    <div class="row">
+                        <div class="col-xl-12 col-lg-12">
+                            <div class="tab-content bet-tab-content" id="myTabContent">
+                                <div class="tab-pane fade show active" id="all-sports" role="tabpanel" aria-labelledby="all-sports-tab">
+                                    <div class="sport-content-title">
+                                        <h3>Latest Results</h3>
+                                    </div>
+                                    <div class="sports-list  bg-white">
+                                        <div class="col-md-12 bg-white">
+                                            <div class="table-responsive">
+                                                <table class="table">
+                                                    <thead>
+                                                        <tr>
+                                                            <td>
+                                                                <h6>Event</h6>
+                                                            </td>
+                                                            <td class="text-center"><small><b>Prediction</b></small></td>
+                                                            <td class="text-center"><small><b>Date</b></small></td>
+                                                            <td class="text-center"><small><b>Score</b></small></td>
+                                                            <td></td>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody id="homez">
+
+                                                    </tbody>
+                                                </table>
+                                                <table width="100%" align="center">
+                                                    <tr>
+                                                        <td>
+                                                            <div class="row" style="background:whitesmoke;">
+                                                                <div class='col-sm-12'>
+                                                                    <form name="mForm" action="#" method="POST" onsubmit="return showRecords()">
+                                                                        <div class="form-group">
+                                                                            <div class="cdp" style='padding:10px'>
+                                                                                <div class="row">
+                                                                                    <div class="col-md-4" style="margin: 5px;">
+                                                                                        <select id="category" name="category" class="form-control" style="background: green;color:white;">
+                                    <option value ="">Select categories</option>
+                              
+                                    <option value="correct_score">Correct Score</option>
+                                    <option value="dc_dnb">Double Chance</option>
+                                    <option value="draws">Draws</option>
+                                    <option value="ht_ft">HT/FT</option>
+                                    <option value="over_15">Over 1.5 Goals</option>
+                                    <option value="over_under_goals">Over 2.5 Goals</option>
+                                    <option value="bts">BTTS/GG</option>
+                                    <option value="take_risk">Take the Risk</option>
+                                    <option value="handicap">Handicap</option>
+                                    <option value="3odd_banker">Sure 3</option>
+                                    <option value="sure2">Sure 2</option>
+                                    <option value="sure5">Sure 5</option>
+                                    <option value="tipster50">Weekend 50 odds</option>
+                                    <option value="banker">Bankers</option>
+                                    <option value="other_leagues">Other Leagues</option>
+                                    <option value="3odd_combo">Combo</option>
+                                    <option value="tipster10">Super 10 odd</option>
+                                    <option value="jackpot">Weekly Jackpot</option>
+                                    <option value="topleagues">Top Leagues</option>
+                                    </select>
+                                                                                    </div>
+                                                                                    <div class="col-md-4" style="margin: 5px;">
+                                                                                        <input id="date" name="cdate" type="date" class="form-control" placeholder="Select Date" style="background: green;color:white;">
+                                                                                    </div>
+                                                                                    <div class="col-md-3" style="margin: 5px;">
+                                                                                        <button class="btn btn-success" type="button" id="looking" style="padding:5px;background: green;color:white;">Search Previous Record</button>
+                                                                                    </div>
+                                                                                    <div id="msgz" style="text-align: center;font-weight: 600;font-size: 100%;"></div>
+                                                                                </div>
+                                                                            </div>
+                                                                    </form>
+                                                                    </div>
+                                                                </div>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--------------latest result--------------->
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12 mb-3" style="border-right: 1px solid #dcdcdc;">
+
+                                <a href="https://refpa16790.top/L?tag=d_1675889m_1599c_&site=1675889&ad=1599&r=registration" target="_blank">
+ <img src="files/images/1xbet4.jpeg" class=""width="100%" alt="..."style="">
+ </a>
+
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!----------------------------------------------->
+            
+
+
+            <style>
+                .footer-links {
+                    text-decoration: none;
+                }
+            </style>
+            <div class="footer" id="contact">
+                <div class="container">
+                    <div class="row justify-content-between">
+                        <div class="col-xl-5 col-lg-5 col-md-10">
+                            <div class="about-widget">
+                                <a class="logo" href="index.php">
+<img src="files/images/logo.png" alt="">
+</a>
+                                <p>
+                                    <small>SPORTVERIFIED YOUR NO 1 GUIDE TO FOOTBALL BETTING AND PREDICTION.</small>
+                                </p>
+                                <div class="social">
+                                    <ul>
+                                        <li>
+                                            <a href="https://www.facebook.com/mysportverified" class="social-icon">
+<i class="fab fa-facebook"></i>
+</a>
+                                            <a href="" class="social-icon">
+<i class="fab fa-twitter"></i>
+</a>
+                                            <a href="" class="social-icon">
+<i class="fab fa-instagram"></i>
+</a>
+                                            <a href="" class="social-icon">
+<i class="fab fa-linkedin"></i>
+</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="support">
+                                    <ul style="display:block;">
+                                        <li>
+                                            <span class="icon">
+
+</span>
+                                            <span class="text">
+<span class="title ml-2">Mail Us</span>
+                                            <span class="descr ml-2">contact@sportverified.com</span>
+                                            </span>
+                                        </li>
+                                        <br>
+                                        <li>
+                                            <span class="icon">
+
+</span>
+                                            <span class="text">
+<span class="title ml-2">Get In Touch</span>
+                                            <span class="descr text-white">
+Calls &amp; WhatsApp:
+
+08160525066 (Nigeria),<br>
+<i class="fab fa-whatsapp" style="color:#32b6cd;"></i>
+<a class="section-title2" href="https://api.whatsapp.com/send?phone=2348124839413" style="color:#32CD32;">Click here to contact us via WhatApp(Nigeria).</a>
+<br>
+</span>
+                                            </span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-3">
+                            <div class="useful-links">
+                                <h3>Useful links</h3>
+                                <ul>
+                                    <li><a href="register.php" class="footer-links" id="session_out_register">Register</a></li>
+                                    <li><a href="account.php" class="footer-links" id='session_in_account'>My Account</a></li>
+                                    <li><a href="pricing.php" class="footer-links">Pricing Plan</a></li>
+                                    <li><a href="howto.php" class="footer-links">How to Pay</a></li>
+                                    <li><a href="about.php" class="footer-links">About Us</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-3">
+                            <div class="useful-links">
+                                <h3>Support Center</h3>
+                                <ul>
+
+                                    <li><a href="#" class="footer-links">Mail Update</a></li>
+                                    <li><a href="faq.php" class="footer-links">FAQs</a></li>
+                                    <li><a href="contact.php" class="footer-links">Contact Us</a></li>
+                                    <li><a href="terms.php" class="footer-links">Terms and Conditions</a></li>
+                                    <li><a href="terms" class="footer-links">Privacy Policy</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-xl-12 col-lg-12">
+                                    <div class="payment-method">
+                                        <h6 class="payment-method-title">
+
+                                            Payment we accept
+
+                                        </h6>
+                                        <div class="all-method">
+                                            <div class="">
+                                                <img src="files/Pay-with-22.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="notes">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-xl-10 col-lg-10">
+                            <center>
+                                <div class="plusr_lab" style="border:2px solid red;border-radius: 50px;width:40px;color:red;">
+                                    18+
+                                </div>
+                            </center>
+
+                            <div class="plusr_labws">
+                                Players must be 18 or older to register or play at Sportverified.<br> Please note that gambles may have negative effects if not made with temperance.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="copyright-footer">
+                <div class="container">
+                    <div class="row justify-content-between">
+                        <div class="col-xl-5 col-md-6 col-lg-6 d-lg-flex d-lg-flex d-block align-items-center">
+                            <p class="copyright-text">
+                                <a href="https://sportverified.com/">Sportverified</a> ©
+                                <script>
+                                    var d = new Date();
+                                    var n = d.getFullYear();
+                                    document.write(n)
+                                </script>. PRIVACY POLICY
+                            </p>
+                        </div>
+                        <div class="text-right col-md-6 col-xl-4 col-lg-6 d-xl-flex d-lg-flex d-block align-items-center">
+                            <p class="copyright-text">
+                                Powered By <a href="https://sportverified.com/">Sportverified</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <script type="text/javascript">
+                var Tawk_API = Tawk_API || {},
+                    Tawk_LoadStart = new Date();
+                (function() {
+                    var s1 = document.createElement("script"),
+                        s0 = document.getElementsByTagName("script")[0];
+                    s1.async = true;
+                    s1.src = 'https://embed.tawk.to/5a5f7ef9d7591465c706d857/default';
+                    s1.charset = 'UTF-8';
+                    s1.setAttribute('crossorigin', '*');
+                    s0.parentNode.insertBefore(s1, s0);
+                })();
+            </script>
+
+
+
+    </section>
+
+    <script type="text/javascript" src="files/jquery-3.4.1.min.js.download"></script>
+
+
+    <script src="files/popper.min.js.download"></script>
+    <script src="files/bootstrap.min.js.download"></script>
+    <script src="files/owl.carousel.js.download"></script>
+    <script src="files/jquery.magnific-popup.js.download"></script>
+    <script src="files/jquery.filterizr.min.js.download"></script>
+    <script src="files/wow.min.js.download"></script>
+    <script src="files/clock.min.js.download"></script>
+    <script src="files/jquery.appear.min.js.download"></script>
+    <script src="files/odometer.min.js.download"></script>
+    <script src="files/oddometer-active.js.download"></script>
+    <script src="files/calendar-new.js.download"></script>
+    <script src="files/main.js.download"></script>
+    <script src="files/wheels20.js.download"></script>
+    <script src="files/moment.min.js.download"></script>
+
+    <script src="bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+    <script src="datatables-bs4/js/dataTables.bootstrap4.min.js"></script>
+
+    <!-- DataTables -->
+    <script src="datatables/jquery.dataTables.min.js"></script>
+    <script src="datatables-responsive/js/dataTables.responsive.min.js"></script>
+    <script src="datatables-responsive/js/responsive.bootstrap4.min.js"></script>
+
+    <script>
+        var session_email = localStorage.getItem("user_email");
+        console.log(session_email);
+
+        if (session_email == '' || session_email == null) {
+            $("#session_out_login").show();
+            $("#session_out_register").show();
+
+            $("#session_in_account").hide();
+            $("#session_in_dashboard").hide();
+
+        } else {
+
+            $("#session_out_login").hide();
+            $("#session_out_register").hide();
+
+            $("#session_in_account").show();
+            $("#session_in_dashboard").show();
+
+
+        }
+    </script>
+    <script data-cfasync="false" type="text/javascript" id="clever-core">
+        (function(document, window) {
+            var a, c = document.createElement("script");
+
+            c.id = "CleverCoreLoader22655";
+            c.src = "//scripts.cleverwebserver.com/7cdbd065970b910fec28b95d9ff39bb7.js";
+
+            c.async = !0;
+            c.type = "text/javascript";
+            c.setAttribute("data-target", window.name);
+            c.setAttribute("data-callback", "put-your-callback-macro-here");
+
+            try {
+                a = parent.document.getElementsByTagName("script")[0] || document.getElementsByTagName("script")[0];
+            } catch (e) {
+                a = !1;
+            }
+
+            a || (a = document.getElementsByTagName("head")[0] || document.getElementsByTagName("body")[0]);
+            a.parentNode.insertBefore(c, a);
+        })(document, window);
+    </script>
+    <script>
+        $("#title").html("Free Football Prediction Site | Sportverified");
+    </script>
+    <script src="develop/free_ball_active.js">
+    </script>
+    <script src="develop/free_other_active.js">
+    </script>
+    <script type="text/javascript" src="develop/show_freeball.js"></script>
+    <script type="text/javascript" src="develop/show_freebasketball.js"></script>
+    <script type="text/javascript" src="develop/show_latest_result.js"></script>
+    <script type="text/javascript">
+        function other_sport(value) {
+            localStorage.removeItem("other_sport");
+            ///////
+
+            var valv = value;
+            localStorage.setItem("other_sport", valv);
+            change_it();
+        }
+    </script>
+    <script>
+        $("#bas").click(function() {
+            $("#bas").css('background', 'white');
+            $("#bas").css('color', '#060');
+            $("#box").css('background', 'transparent');
+            $("#hoc").css('background', 'transparent');
+            $("#ten").css('background', 'transparent');
+
+            $("#box").css('color', 'white');
+            $("#hoc").css('color', 'white');
+            $("#ten").css('color', 'white');
+        })
+        $("#box").click(function() {
+            $("#box").css('background', 'white');
+            $("#box").css('color', '#060');
+            $("#bas").css('background', 'transparent');
+            $("#hoc").css('background', 'transparent');
+            $("#ten").css('background', 'transparent');
+
+            $("#bas").css('color', 'white');
+            $("#hoc").css('color', 'white');
+            $("#ten").css('color', 'white');
+
+
+        })
+        $("#hoc").click(function() {
+            $("#hoc").css('background', 'white');
+            $("#hoc").css('color', '#060');
+            $("#bas").css('background', 'transparent');
+            $("#box").css('background', 'transparent');
+            $("#ten").css('background', 'transparent');
+
+            $("#box").css('color', 'white');
+            $("#bas").css('color', 'white');
+            $("#ten").css('color', 'white');
+
+
+        })
+
+        $("#ten").click(function() {
+            $("#ten").css('background', 'white');
+            $("#ten").css('color', '#060');
+            $("#bas").css('background', 'transparent');
+            $("#box").css('background', 'transparent');
+            $("#hoc").css('background', 'transparent');
+
+            $("#box").css('color', 'white');
+            $("#bas").css('color', 'white');
+            $("#hoc").css('color', 'white');
+
+
+        })
+    </script>
+    <!-- Display the countdown timer in an element -->
+
+
+    <script>
+        // Set the date we're counting down to
+        var dating = $("#count_date").val();
+        var countDownDate = new Date(dating).getTime();
+
+        // Update the count down every 1 second
+        var x = setInterval(function() {
+
+            // Get today's date and time
+            var now = new Date().getTime();
+
+            // Find the distance between now and the count down date
+            var distance = countDownDate - now;
+
+            // Time calculations for days, hours, minutes and seconds
+            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+            // Display the result in the element with id="demo"
+            document.getElementById("demo1").innerHTML = "<table width='100%'style='color:white;text-align:center;'align='center'><tr><td>" + hours + "<br>Hours</td><td>" + minutes + "<br>Minutes</td><td>" + seconds + "<br>Seconds</td></tr></table> ";
+
+            // If the count down is finished, write some text
+            if (distance <= 0) {
+                clearInterval(x);
+                $("#demo1").hide();
+                $("#dem1").hide();
+            }
+        }, 1000);
+    </script>
+    <script>
+        ////////Set the date we're counting down to
+        var dating2 = $("#count_date2").val();
+        var countDownDate2 = new Date(dating2).getTime();
+
+        // Update the count down every 1 second
+        var x = setInterval(function() {
+
+            // Get today's date and time
+            var now2 = new Date().getTime();
+
+            // Find the distance between now and the count down date
+            var distance2 = countDownDate2 - now2;
+
+            // Time calculations for days, hours, minutes and seconds
+            var days2 = Math.floor(distance2 / (1000 * 60 * 60 * 24));
+            var hours2 = Math.floor((distance2 % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes2 = Math.floor((distance2 % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds2 = Math.floor((distance2 % (1000 * 60)) / 1000);
+
+            // Display the result in the element with id="demo"
+            document.getElementById("demo2").innerHTML = "<table width='100%'style='color:white;text-align:center;'align='center'><tr><td>" + hours2 + "<br>Hours</td><td>" + minutes2 + "<br>Minutes</td><td>" + seconds2 + "<br>Seconds</td></tr></table> ";
+
+            // If the count down is finished, write some text
+            if (distance2 <= 0) {
+                clearInterval(x);
+                $("#demo2").hide();
+                $("#dem2").hide();
+            }
+        }, 1000);
+    </script>
+
+</body>
+
+</html>

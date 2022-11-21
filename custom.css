@@ -1,0 +1,260 @@
+.banner .banner-content {
+    padding: 30px 0 !important
+}
+
+.product-gn-card {
+    background: #000;
+    border: 2px solid #ffcc56
+}
+
+.product-info-card {
+    padding: 30px !important;
+    border-right: 1px solid #9c9c9c40
+}
+
+.product-title {
+    position: relative
+}
+
+.product-title,
+.product-description,
+.product-ratings {
+    padding: 10px;
+    border-bottom: 1px solid #9c9c9c40
+}
+
+.product-description {
+    color: #fff
+}
+
+.bg-white {
+    background-color: #fff !important
+}
+
+.product-ratings {
+    border: none !important
+}
+
+.product-title h4 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #ffcc56
+}
+
+.product-title .price-tag {
+    position: absolute;
+    display: inline-block;
+    padding: 7px 15px;
+    border-radius: 25px;
+    background-color: #12dd78;
+    color: #fff;
+    right: 0;
+    top: -23px
+}
+
+@media screen and (max-width:790px) {
+    .product-title .price-tag {
+        top: -23px
+    }
+    .padding-gen {
+        padding: 20px
+    }
+    .product-title h4 {
+        font-size: 26px
+    }
+}
+
+@media screen and (max-width:480px) {
+    .product-title .price-tag {
+        top: -13px
+    }
+}
+
+.product-ratings .ratings span {
+    color: #ffcc56
+}
+
+.product-assurance {
+    padding: 20px 30px;
+    border-right: 1px solid #9c9c9c40;
+    color: #fff !important
+}
+
+span.date {
+    color: #fff !important;
+    font-weight: 700
+}
+
+.product-assurance-list {
+    border-bottom: 1px solid #9c9c9c40;
+    padding-bottom: 24px
+}
+
+.product-assurance-list ul {
+    display: flex;
+    list-style: none
+}
+
+.product-assurance .product-assurance-list ul li {
+    flex: 1;
+    padding: 8px 9px;
+    text-align: center;
+    color: #fff;
+    margin-right: 10px
+}
+
+@media(max-width:480px) {
+    .product-assurance-list ul {
+        display: block
+    }
+    .product-assurance .product-assurance-list ul li {
+        display: inline-block;
+        padding: 8px 4px;
+        margin-right: 6px
+    }
+}
+
+.product-assurance .product-assurance-list ul li .date {
+    display: block;
+    padding: 6px;
+    font-size: 19px
+}
+
+@media screen and (max-width:480px) {
+    .product-assurance .product-assurance-list ul li .date {
+        font-size: 14px
+    }
+}
+
+.product-assurance-list ul li i {
+    font-size: 50px;
+    color: #12dd78;
+    background: 0 0 !important
+}
+
+@media(max-width:480px) {
+    .product-assurance-list ul {
+        display: block
+    }
+    .product-assurance .product-assurance-list ul li {
+        display: inline-block;
+        padding: 8px 4px;
+        margin-right: 6px
+    }
+    .product-assurance-list ul li i {
+        font-size: 30px
+    }
+}
+
+.product-assurance-list ul li i.green {
+    color: #12dd78 !important
+}
+
+.product-assurance-list ul li i.red {
+    color: red !important
+}
+
+@media screen and (max-width:790px) {
+    .product-assurance-list ul li.g {
+        margin-right: 0 !important
+    }
+}
+
+.product-assurance-summary {
+    padding: 20px !important
+}
+
+.product-activity {
+    padding: 30px 15px !important
+}
+
+.product-assurance-summary p,
+.product-activity p {
+    font-size: 24px
+}
+
+@media screen and (max-width:790px) {
+    .product-info-card,
+    .product-assurance,
+    .product-activity {
+        padding: 20px 15px
+    }
+    .product-assurance-summary {
+        border-bottom: 1px solid #9c9c9c40 !important
+    }
+}
+
+@media screen and (max-width:480px) {
+    .product-info-card,
+    .product-activity {
+        padding: 20px 15px !important
+    }
+    .product-assurance {
+        padding: 10px 15px !important
+    }
+    .product-assurance-summary {
+        border-bottom: 1px solid #9c9c9c40 !important
+    }
+}
+
+.product-card {
+    margin-top: 20px;
+    background-color: #1e202f
+}
+
+.product-info-card {
+    padding: 20px !important;
+    border-right: 1px solid #9c9c9c40;
+    overflow: visible
+}
+
+.product-title {
+    position: relative;
+    overflow: visible
+}
+
+.product-title,
+.product-description,
+.product-ratings {
+    padding: 10px;
+    border-bottom: 1px solid #9c9c9c40
+}
+
+.product-ratings {
+    border: none !important
+}
+
+.product-title h4 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #fff;
+    margin: 0
+}
+
+@media screen and (max-width:790px) {
+    .product-title h4 {
+        font-size: 26px;
+        margin: 0
+    }
+}
+
+.product-ratings .ratings span {
+    color: #ffcc56
+}
+
+@media screen and (max-width:790px) {
+    .product-info-card {
+        padding: 20px 15px
+    }
+}
+
+@media screen and (max-width:480px) {
+    .product-info-card {
+        padding: 20px 15px !important
+    }
+}
+
+.games .game-card {
+    width: 170px;
+    display: inline-block
+}
